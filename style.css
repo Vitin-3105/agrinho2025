@@ -1,0 +1,113 @@
+/* Resetando estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: s#ffffff;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #156b00;
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Seção de introdução */
+.intro {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Seção de objetivos */
+.objetivos {
+    background-color: #146600;
+    padding: 40px 20px;
+}
+
+.objetivos h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.objetivos ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.objetivos li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Galeria de imagens */
+.imagens {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.imagens h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.image-grid img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Rodapé */
+footer {
+    background-color: #147002;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 1em;
+}
+.fotos {margin-right: 85%;
+
+}
